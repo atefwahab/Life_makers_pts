@@ -1,0 +1,241 @@
+body{
+	font-family: 'Noto Sans Kufi Arabic', serif;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------
+         What i will add from his CSS
+   ------------------------------------------------------------------------------------------------------------------------
+  */
+
+#loader-wrapper {
+	background: #00aaf7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+#loader-wrapper h1{
+	color: #fff;
+	text-align: center;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 6px solid transparent;
+    border-top-color: #036AAD;
+
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+    #loader:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        border-radius: 50%;
+        border: 6px solid transparent;
+        border-top-color: #fff;
+
+        -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+        animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    }
+
+    #loader:after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        border-radius: 50%;
+        border: 6px solid transparent;
+        border-top-color: #036AAD;
+
+        -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+          animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    }
+
+    @-webkit-keyframes spin {
+        0%   { 
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+    @keyframes spin {
+        0%   { 
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+
+
+  /* ------------------------------------------------------------------------------------------------------------------------
+       Done
+   ------------------------------------------------------------------------------------------------------------------------
+  */
+
+.p1{
+	background: url("images/bg.jpg");
+	font-family: 'Noto Sans Kufi Arabic', serif;
+}
+.first_logo {
+	height: 30%;
+	width: 100%
+}
+.logoi{
+	margin-left: auto;
+	margin-right: auto;
+}
+.other_options{
+	margin-left: auto;
+	margin-right: auto;
+}
+#loginForm{
+	font-family: 'Noto Sans Kufi Arabic', serif;
+}
+
+#usrnm,#pswd{
+	text-align: right;
+	padding-right: 15px;
+	font-family: 'Noto Sans Kufi Arabic', serif;
+}
+.navbar{
+	height: 50%;
+	width: 100%;
+	
+	background: #00aaf7;
+	color: #fff;
+	text-align: right;
+	padding-right: 15px;
+	border-bottom: 5px solid #0071bc;
+	border-radius: 0px;
+
+}
+.navbar h2{
+	font-family: 'Noto Sans Kufi Arabic', serif;
+	font-size: 20px;
+	float: right;
+
+}
+.navbar a{
+	float: left;
+	float: top;
+}
+.formButton{
+	font-family: 'Noto Sans Kufi Arabic', serif;
+	font-size: 12px;
+}
+.list{
+	font-family: 'Noto Sans Kufi Arabic', serif;
+}
+.list li{text-align: right;}
+.list li a{font-family: 'Noto Sans Kufi Arabic', serif;
+text-align: center;
+}
+.list li a span{
+	color:#00aaf7;
+	background: #0071bc;
+}
+#home a{
+	font-family: 'Noto Sans Kufi Arabic', serif;
+}
+.header{
+	background: url("images/bg.jpg");
+	color: #fff;
+}
+.header h2{color:#fff;
+font-size: 16px;}
+.mainp{
+	height: 100%
+
+}
+.lo{
+	display: block;
+}
+.events{
+	
+	text-align: right;
+	font-family: 'Noto Sans Kufi Arabic', serif;
+}
+.events img{
+	margin: auto;
+	border-radius: 10px;
+	max-width: 300px;
+	max-height: 200px;
+}
+.events p{
+	font-family: 'Noto Sans Kufi Arabic', serif;
+	
+}
+.events iframe{
+	margin: auto;
+	border-radius: 10px;
+	max-width: 300px;
+	max-height: 200px;
+	
+
+}
+.fram{
+	margin: auto;
+	border-radius: 10px;
+	max-width: 300px;
+	max-height: 200px;
+	
+
+}
+.controller{
+	float: left;
+}
+
+.mainContent{min-height: 400px;}
+.developer{
+	margin: auto;
+}
+.developer img{
+	margin: auto;
+}
+.developer h3{
+	
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+}
+.developer p{
+	margin-top: 10px;
+	text-align: center;
+}
+.social{
+	width: 175px;
+	margin: auto;
+	margin-top: 20px;
+
+}
+.social a{
+	margin-right: 20px;
+}
+.social a:nth-child(3){
+	margin-right: 0px;
+}

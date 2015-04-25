@@ -1,0 +1,249 @@
+	<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf8">
+
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/themes/tef.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  
+   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/earlyaccess/droidsanstamil.css' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/earlyaccess/lateef.css' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/earlyaccess/notokufiarabic.css' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/earlyaccess/notonaskharabic.css' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/earlyaccess/notosanskufiarabic.css' rel='stylesheet' type='text/css'>
+  
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<script>
+$(document).ready(function(){
+   
+        document.location.href="#login";
+    
+});
+</script>
+
+
+
+</head>
+<body>
+
+	<!-- Loading page -->
+	<div data-role="page" class="loader-warper" id="loading" data-title="Loading">
+	
+	<div data-role="main" class="ui-content">
+		
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+			<h1>صناع الحياة بورسعيد</h1>
+     
+     
+		</div>
+
+       
+          
+          
+          
+	
+</div>
+</div>
+
+<!-- Login page -->
+<div data-role="page" class="p1" id="login" data-title="Login Screen">
+	
+	<div data-role="main" class="ui-content">
+		<div class="first_logo">
+			<img src="images/logo3.png" class="img-responsive logoi">
+		</div>
+
+        <div>
+		  <form id="loginForm">
+        <div>
+          
+          
+          <input style="background: url(themes/images/user-black.png)" class="ui-btn-icon-right" type="text" name="user" id="usrnm" placeholder="أسم المستخدم">
+          <label for="pswd" class="ui-hidden-accessible">Password:</label>
+          <input type="password" name="passw" id="pswd" placeholder="كلمة السر">
+          <!--input class=" ui-icon-lock ui-btn-icon-left" type="submit" data-inline="true" value="Log in"-->
+          <a href="#home" class="ui-btn ui-icon-lock ui-btn-icon-right ui-corner-all ui-btn-c ui-nodisc-icon formButton" data-transition="flip" type="submit" >تسجيل الدخول</a>
+        </div>
+      </form>
+         </div>
+         <div class="other_options">
+         	<a href="#" class="ui-btn ui-corner-all  ui-btn-c formButton" >نسيت كلمة المرور</a>
+         	<a href="#" class="ui-btn ui-corner-all ui-icon-edit ui-btn-icon-right ui-btn-c formButton">الحصول على عضوية</a>
+         </div>
+	
+</div>
+</div>
+
+<!--Home Page-->
+<div data-role="page" data-title="Home page" id="home">
+	<div class="navbar">
+		<h2>صناع الحياة بورسعيد</h2>
+		<a href="#login"  class="ui-btn ui-corner-all  ui-btn-c formButton ui-icon-power ui-btn-icon-left ui-mini ui-btn-inline ui-nodisc-icon" >خروج</a>
+	</div>
+	<div data-role="main" class="ui-content">
+
+		
+    
+    <ul class="list"data-role="listview" data-inset="true">
+      
+      <li><a href="#lastevents" data-transition="flow">أخر الأخبار</a> </li>
+      <li><a href="#" data-transition="flow">المشاريع</a></li>
+      <li><a href="#"data-transition="flow">العضو المثالى</a></li>
+      <li><a href="#"data-transition="flow">الهيكل</a></li>
+      <li><a href="#"data-transition="flow">أحدث بوستات الجروب</a></li>
+      <li><a href="#"data-transition="flow">طلبات صناع<span class="ui-li-count">0</span></a></li>
+      <li><a href="#devlop"data-transition="flow"><img src="images/dev.png" alt="develover" class="ui-li-icon">عن المطورين</a></li>
+    </ul>
+  </div>
+
+ 
+		
+		<a href="#" class="ui-btn ui-btn-c ui-corner-all ui-icon-arrow-l ui-btn-icon-left ui-nodisc-icon" data-rel="back">رجوع</a>
+	</div>
+
+
+
+	<!-- last events page-->
+	<div data-role="page" data-title="Last Events" id="lastevents">
+	<div class="navbar">
+		<h2>صناع الحياة بورسعيد</h2>
+		<a href="#login" class="ui-btn ui-corner-all  ui-btn-c formButton ui-icon-power ui-btn-icon-left ui-mini ui-btn-inline ui-nodisc-icon" >خروج</a>
+	</div>
+	<div data-role="main" class="ui-content mainp">
+
+	<div class="mainContent">
+    <div data-role="header" class="header">
+    	<h2>أخر الأخبار</h2>
+    </div>
+
+    <!-- Carsoul starts here-->
+    <div class"warper">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+        <!-- Wrapper for slides -->
+       <div class="carousel-inner" role="listbox">
+         <div class="item active">
+          <div class="events">
+            <h3>وحوش صناع يغزون أم خلف</h3>
+            <p>قامت جمعية صناع الحياة بعمل يوم ترفيهى و تعليمى لأطفال أم خلف .<br> وشاركت عده لجان فى الحدث منهم على سبيل المثال مشروع أنسان وصحتنا و مشروع أبنى
+            </p>
+            <img src="images/event.jpg" class="img-responsive">
+          </div>
+         </div>
+         <div class="item">
+          <div class="events">
+            <h3>ولان الصوره واصفه نفسها</h3>
+            <p>ولأن الصوره واصفه نفسها هنسيبها تتكلم ‫<br>
+                 #‏كلاكيت_تانى_مره‬ ‫ 
+                #‏الحمله_الاخلاقيه ‫ #‏صناع_نهضه_بورسعيد‬
+            </p>
+            <img src="images/event2.jpg" class="img-responsive">
+          </div>         </div>
+         <div class="item">
+          <div class="events">
+            <h3>معلومة في دقيقة - أمراض سوء التغذية</h3>
+            <p>‫#‏صناع_نهضة_بورسعيد‬<br>
+‫              #‏فريق_التوعية‬<br>
+‫              #‏صحتك‬</p>
+           <div class="fram">
+            <iframe  class="embed-responsive-item" width="420" height="345"
+             src="https://www.youtube.com/embed/fY0_U99On0g" align="middle">
+             Video is not working 
+
+            </iframe>
+           </div>
+            
+
+           
+
+          </div>
+         </div>
+      <!--close for slider-->  
+      </div> 
+      </div>
+      </div> 
+
+    </div>
+
+    <div class="controller"></div>
+    <a href="#carousel-example-generic" class="ui-btn ui-btn-c ui-corner-all ui-icon-carat-l ui-btn-icon-notext ui-btn-inline carprev" data-slide="prev"></a>
+    <a href="#carousel-example-generic" class="ui-btn ui-btn-c ui-corner-all ui-icon-carat-r ui-btn-icon-notext carnext ui-btn-inline pull-right" data-slide="next"></a><br>
+  </div>
+
+ 
+		
+		<a href="#" class="ui-btn ui-btn-c ui-corner-all ui-icon-arrow-l ui-btn-icon-left ui-nodisc-icon" data-rel="back">رجوع</a>
+	</div>
+
+
+<!--close of last events page-->
+</div>
+
+
+<!--About developer page-->
+<div data-role="page" id="devlop" data-title="About Developers">
+
+    <div class="navbar">
+    <h2>صناع الحياة بورسعيد</h2>
+    <a href="#login" class="ui-btn ui-corner-all  ui-btn-c formButton ui-icon-power ui-btn-icon-left ui-mini ui-btn-inline ui-nodisc-icon" >خروج</a>
+  </div>
+  <div data-role="main" class="ui-content mainp">
+
+  <div class="mainContent">
+    <div data-role="header" class="header">
+      <h2><img src="images/dev1.png" alt="develover" class="ui-li-icon">    عن المطورين</h2>
+    </div>
+
+    <!-- Carsoul starts here-->
+    <div class"warper">
+      <div id="dev-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+        <!-- Wrapper for slides -->
+       <div class="carousel-inner" role="listbox">
+         <div class="item active">
+          <div class="developer">
+            <img src="images/me.png" class="img-responsive">
+            <h3>محمد عاطف محمد</h3>
+            <p>كلية الحاسبات والمعلومات
+            </p>
+            <div class="social">
+              <a href="https://www.facebook.com/atefwahab"><img src="images/fb.png"></a>
+              <a href="https://www.twitter.com/atefwahab"><img src="images/twitter1.png"></a>
+              <a href="https://www.linkedin.com/profile/view?id=343817727"><img src="images/linked.png"></a>
+            </div>
+
+          </div>
+         </div>
+         
+      <!--close for slider-->  
+      </div> 
+      </div>
+      </div> 
+
+    </div>
+
+    <div class="controller"></div>
+    <a href="#dev-carousel" class="ui-btn ui-btn-c ui-corner-all ui-icon-carat-l ui-btn-icon-notext ui-btn-inline carprev" data-slide="prev"></a>
+    <a href="#dev-carousel" class="ui-btn ui-btn-c ui-corner-all ui-icon-carat-r ui-btn-icon-notext carnext ui-btn-inline pull-right" data-slide="next"></a><br>
+  </div>
+
+ 
+    
+    <a href="#" class="ui-btn ui-btn-c ui-corner-all ui-icon-arrow-l ui-btn-icon-left ui-nodisc-icon" data-rel="back">رجوع</a>
+  </div>
+
+<!--close of last event-->
+</div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
