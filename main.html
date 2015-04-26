@@ -34,6 +34,12 @@ $(document).ready(function(){
 </head>
 <body class="ui-mobile-viewport ui-overlay-a">
 
+  <!-- ***********************************************************************************************************************
+
+               Loading Screen ... code 
+
+        ********************************************************************************************************************** -->       
+
 	<!-- Loading page -->
 	<div data-role="page" class="loader-warper" id="loading" data-title="Loading">
 	
@@ -53,6 +59,12 @@ $(document).ready(function(){
 	
 </div>
 </div>
+
+ <!-- ***********************************************************************************************************************
+
+               Login page ... code 
+
+        ********************************************************************************************************************** -->       
 
 <!-- Login page -->
 <div data-role="page" class="p1" id="login" data-title="Login Screen">
@@ -76,13 +88,88 @@ $(document).ready(function(){
       </form>
          </div>
          <div class="other_options">
-         	<a href="#" class="ui-btn ui-corner-all  ui-btn-c formButton" >نسيت كلمة المرور</a>
-         	<a href="#" class="ui-btn ui-corner-all ui-icon-edit ui-btn-icon-right ui-btn-c formButton">الحصول على عضوية</a>
+         	<a href="#ForgetPass" class="ui-btn ui-corner-all  ui-btn-c formButton" >نسيت كلمة المرور</a>
+         	<a href="#NewMember" class="ui-btn ui-corner-all ui-icon-edit ui-btn-icon-right ui-btn-c formButton">الحصول على عضوية</a>
          </div>
 	
 </div>
 
 </div>
+ <!-- ***********************************************************************************************************************
+
+               Forget Password screen ... code 
+
+        ********************************************************************************************************************** -->       
+
+
+<div data-role="page" class="p1" id="ForgetPass" data-title="Login Screen">
+  
+  <div data-role="main" class="ui-content">
+    <div class="first_logo">
+      <img src="images/logo3.png" class="img-responsive logoi">
+    </div>
+
+        <div>
+      <form id="ForgetPassForm">
+        <div>
+          
+          
+          <input style="background: url(themes/images/user-black.png)" class="ui-btn-icon-right" type="text" name="user" id="usrnm" placeholder="البريد الألكترونى">
+
+          <P>* سيتم أرسال كلمة السر على البريد الألكترونى الخاص بك ..</P>
+          
+          <a href="#home" class="ui-btn ui-icon-lock ui-btn-icon-right ui-corner-all ui-btn-c ui-nodisc-icon formButton" data-transition="flip" type="submit" >أرسل كلمة المرور</a>
+        </div>
+      </form>
+         </div>
+         
+</div>
+
+</div>
+
+ <!-- ***********************************************************************************************************************
+
+               New Member ... code 
+
+        ********************************************************************************************************************** -->       
+
+
+<!-- NEW MEMBER -->
+<div data-role="page" class="p1" id="NewMember" data-title="Login Screen">
+  
+  <div data-role="main" class="ui-content">
+    <div class="first_logo">
+      <img src="images/logo3.png" class="img-responsive logoi">
+    </div>
+
+        <div>
+      <form id="loginForm">
+        <div>
+          
+          
+          <input style="background: url(themes/images/user-black.png)" class="ui-btn-icon-right" type="text" name="user" id="usrnm" placeholder="أسم المستخدم">
+          <label for="pswd" class="ui-hidden-accessible">Password:</label>
+          <input type="password" name="passw" id="pswd" placeholder="كلمة السر">
+          <!--input class=" ui-icon-lock ui-btn-icon-left" type="submit" data-inline="true" value="Log in"-->
+          <a href="#home" class="ui-btn ui-icon-lock ui-btn-icon-right ui-corner-all ui-btn-c ui-nodisc-icon formButton" data-transition="flip" type="submit" >تسجيل الدخول</a>
+        </div>
+      </form>
+         </div>
+         <div class="other_options">
+          <a href="#ForgetPass" class="ui-btn ui-corner-all  ui-btn-c formButton" >نسيت كلمة المرور</a>
+          <a href="#" class="ui-btn ui-corner-all ui-icon-edit ui-btn-icon-right ui-btn-c formButton">الحصول على عضوية</a>
+         </div>
+  
+</div>
+
+</div>
+
+ <!-- ***********************************************************************************************************************
+
+               Home ... code 
+
+        ********************************************************************************************************************** -->       
+
 
 <!--Home Page-->
 <div data-role="page" data-title="Home page" id="home">

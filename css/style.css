@@ -117,12 +117,36 @@ body{
 #loginForm{
 	font-family: 'Noto Sans Kufi Arabic', serif;
 }
+/* ------------------------------------------------------------------------------------------------------------------------
+       forgetPass
+   ------------------------------------------------------------------------------------------------------------------------
+  */
+#ForgetPassForm {
+    font-family: 'Noto Sans Kufi Arabic', serif;
+}
+#ForgetPassForm p{
+    color: #fff;
+    font-size: 15px;
+    text-align: right;
+    direction: rtl;
+    margin: 20% 10% 10% 0%;
+}
+
 
 #usrnm,#pswd{
 	text-align: right;
 	padding-right: 15px;
 	font-family: 'Noto Sans Kufi Arabic', serif;
 }
+/* ------------------------------------------------------------------------------------------------------------------------
+       NewMember
+   ------------------------------------------------------------------------------------------------------------------------
+  */
+
+  #NewMember{}
+  #NewMember .logoi{
+    max-height: 50px;
+  }
 .navbar{
 	height: 50%;
 	width: 100%;
